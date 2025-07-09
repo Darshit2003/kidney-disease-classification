@@ -1,3 +1,12 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Darshit2003/kidney-disease-classification
+Author: Darshit2003
+Author-email: darshitsheth333@gmail.com
+Project-URL: Bug Tracker, https://github.com/Darshit2003/kidney-disease-classification/issues
+
 # kidney-disease-classification
 Here in this project kidney-disease-classification is done with mlflow and DVC pipeline
 
