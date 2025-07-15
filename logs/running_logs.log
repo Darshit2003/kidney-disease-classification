@@ -137,3 +137,15 @@
 [2025-07-15 10:19:33,061: INFO: common: created directory at: artifacts]
 [2025-07-15 10:19:53,749: INFO: common: json file saved at: scores.json]
 [2025-07-15 10:19:53,751: INFO: stage_04_model_evaluation: >>>> stage Evaluation Stage Completed]
+[2025-07-15 11:03:24,436: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.233.175.76:8080]
+[2025-07-15 11:03:24,436: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-07-15 11:03:41,227: INFO: _internal: 127.0.0.1 - - [15/Jul/2025 11:03:41] "GET / HTTP/1.1" 200 -]
+[2025-07-15 11:09:30,781: INFO: _internal: 127.0.0.1 - - [15/Jul/2025 11:09:30] "POST /predict HTTP/1.1" 200 -]
+[2025-07-15 11:09:42,887: INFO: _internal: 127.0.0.1 - - [15/Jul/2025 11:09:42] "POST /predict HTTP/1.1" 200 -]
+[2025-07-15 11:09:50,717: INFO: _internal: 127.0.0.1 - - [15/Jul/2025 11:09:50] "POST /predict HTTP/1.1" 200 -]
+[2025-07-15 11:09:59,995: INFO: _internal: 127.0.0.1 - - [15/Jul/2025 11:09:59] "POST /predict HTTP/1.1" 200 -]
+[2025-07-15 11:10:08,368: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000227A1AE0B80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-07-15 11:10:08,379: INFO: _internal: 127.0.0.1 - - [15/Jul/2025 11:10:08] "POST /predict HTTP/1.1" 200 -]
